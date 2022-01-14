@@ -1,0 +1,161 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-logo img {
+  height: 50px;
+  padding: 0 0 0 10px;
+}
+
+.navbar-links {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: underline;
+  padding-right: 50px;
+  color: seashell;
+  font-size: 32px;
+}
+
+.navbar-links a:nth-child(3) {
+  padding-right: 20px;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin: 0 auto;
+  display: flex;
+}
+
+.content {
+  text-align: center;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#store {
+  display: block;
+  margin-bottom: auto;
+  margin-left: 0px;
+  margin-right: 16px;
+  margin-top: 0px;
+  padding-top: 69px;
+}
+
+.content-h2 h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.content-h2 h4 {
+  display: flex;
+  justify-content: center; 
+}
+
+.rowtitle h2 {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.row-1,
+.row-2 {
+  display: flex;
+}
+
+.row-1 {
+  justify-content: center;
+}
+
+.row-2 {
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 10px 20px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.item-title {
+  display: flex;
+  justify-content: center;
+}
+
+.localization {
+  background-image: url("./../img/img-locations-background.webp");
+  height: 500px;
+  opacity: 1;
+}
+
+.row-itens {
+  display: flex;
+  justify-content: space-around;
+}
+.row-6 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px 0 0;
+  width: 300px;
+  background-color: black;
+  justify-content: center;
+}
+.row-6 h3 {
+  justify-content: center;
+  display: flex;
+}
+.row-6 p {
+  justify-content: center;
+  display: flex; 
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.contact h2 {
+display: flex;
+justify-content: center;
+}
+.contact h5 {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen {
+  
+}
